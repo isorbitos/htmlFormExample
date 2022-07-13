@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../images/bacj02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+p {
+  margin: 0;
+}
+body, body *{
+    vertical-align: top;
+}
+
+input,
+select {
+  all: unset;
+  background-color: #edf2f5;
+  height: 36px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.container {
+  background-color: white;
+  width: 600px;
+  height: 750px;
+  margin-top: 15vh;
+}
+#formContainer {
+  padding: 45px;
+}
+
+.logoContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer > * {
+  display: inline-block;
+}
+
+.logoText {
+  margin-top: 15px;
+  font-size: 25px;
+  color: rgb(202, 132, 52);
+}
+
+.registrationText {
+  text-align: center;
+}
+.inline {
+  display: inline-block;
+}
+
+.birth select {
+  width: 63px;
+}
+
+.nameLineText {
+  color: #7c7e80;
+}
+
+option[disabled] {
+  display: none;
+}
+
+.arrow {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC");
+  background-position: calc(100% - 0.5rem), 100% 0;
+  background-size: 1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+.longInput {
+  width: 100%;
+}
+.submitButton {
+  height: 35px;
+  margin-top: 25px;
+  background-color: #566696;
+  border-radius: 5px;
+  border: none;
+}
+
+.nameContainer input {
+  width: 245px;
+}
+
+.block{
+    margin-top: 15px;
+}
+
+.right {
+  float: right;
+}
+
+.birthImage {
+  margin-left: 15px;
+  margin-top: 25px;
+}

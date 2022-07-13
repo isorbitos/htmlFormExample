@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logoContainer">
+        <img
+          src="./images/logo.jpg"
+          alt="faviconas"
+          width="60px"
+          height="60px"
+        />
+        <p class="logoText">Firma</p>
+      </div>
+      <p class="registrationText">Registration</p>
+
+      <div id="formContainer">
+        <div class="nameContainer block">
+          <p>Name*</p>
+          <div class="inline">
+            <input type="text" name="" id="" />
+            <p class="nameLineText">Firs Name</p>
+          </div>
+          <div class="inline right">
+            <input type="text" name="" id="" />
+            <p class="nameLineText">Last Name</p>
+          </div>
+        </div>
+
+        <div class="emailContainer block">
+          <p>Email address*</p>
+          <input class="longInput" type="email" name="" id="" />
+        </div>
+
+        <div class="birthContainer block">
+          <div class="inline birth">
+            <p class="mainInputName">Birth Date</p>
+            <div class="selectorColumn inline">
+              <select class="arrow" name="month" id="month">
+                <option disabled selected value></option>
+                <option value="1">Jun</option>
+                <option value="2">Jul</option>
+              </select>
+              <p class="additionalInputName">Month</p>
+            </div>
+            <div class="selectorColumn inline">
+              <select class="arrow" name="day" id="day">
+                <option disabled selected value></option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+              </select>
+              <p class="additionalInputName">Day</p>
+            </div>
+            <div class="selectorColumn inline">
+              <select class="arrow" name="year" id="year">
+                <option disabled selected value></option>
+                <option value="1900">1900</option>
+                <option value="1900">1901</option>
+              </select>
+              <p class="additionalInputName">Year</p>
+            </div>
+          </div>
+
+          <div class="inline">
+            <div class="birthImage">
+              <img
+                src="./images/flopy.png"
+                alt="faviconas"
+                width="30px"
+                height="30px"
+              />
+            </div>
+          </div>
+
+        </div>
+
+        <div class="phoneContainer block">
+          <p>Phone Number*</p>
+          <input class="longInput" type="email" name="" id="" />
+        </div>
+
+        <div class="questionContainer block">
+          <p>Will you be running or walking?</p>
+          <select
+            class="longInput arrow nameLineText"
+            name="activity"
+            id="activity"
+          >
+            <option disabled selected value>Choose One</option>
+            <option class="select" value="1">walking</option>
+            <option class="select" value="2">running</option>
+          </select>
+        </div>
+        <button class="longInput submitButton" type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
