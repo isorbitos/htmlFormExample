@@ -105,3 +105,26 @@ option[disabled] {
   margin-left: 15px;
   margin-top: 25px;
 }
+
+
+
+@media (max-width: 580px){
+
+    .nameContainer input {
+        width: 205px;
+      }
+}
+
+@media (max-width: 502px){
+
+    .nameContainer input {
+        width: 175px;
+      }
+}
+
+@media (max-width: 441px){
+
+    .nameContainer input {
+        width: 345px;
+      }
+}
